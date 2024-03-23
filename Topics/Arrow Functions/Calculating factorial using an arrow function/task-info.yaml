@@ -1,0 +1,32 @@
+type: code
+files:
+  - name: main.js
+    visible: true
+    text: |-
+      const readline = require('readline');
+      
+      /* Read input from command line/console */
+      const inputReader = readline.createInterface({
+          input: process.stdin,
+          output: process.stdout
+      });
+      
+      inputReader.on('line', (input) => {
+          /* Create your arrow function below and use it to calculate the factorial of the input */
+      
+          // Don't forget to print the result to the console using console.log()
+      
+          // Once done, remember to close the inputReader using inputReader.close()
+      });
+      
+      inputReader.on('close', () => {
+          process.exit(0);
+      });
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/41213#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Fri, 22 Mar 2024 06:57:41 UTC"
+record: -1
+submission_language: javascript

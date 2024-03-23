@@ -1,0 +1,31 @@
+type: code
+files:
+  - name: main.js
+    visible: true
+    text: |-
+      // Importing the required library
+      const readline = require('readline');
+      
+      // Create Readline interface
+      const rl = readline.createInterface({
+          input: process.stdin,
+          output: process.stdout
+      });
+      
+      rl.on('line', (input) => {
+          // Create the anonymous function here
+      
+          // Use the anonymous function to process the 'input'
+      
+      
+          // Closing the readline interface
+          rl.close();
+      });
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/44756#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Fri, 22 Mar 2024 06:31:49 UTC"
+record: -1
+submission_language: javascript

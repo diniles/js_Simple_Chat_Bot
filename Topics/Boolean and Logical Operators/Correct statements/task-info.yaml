@@ -1,0 +1,18 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: There are only three possible values of boolean variables
+  - text: <code>||</code> returns false as soon as it finds the first occurring false
+  - text: The priority of <code>&amp;&amp;</code> is higher than the priority of <code>||</code>
+  - text: The statement <code>25 &gt; 0</code> is true
+files:
+  - name: main.js
+    visible: true
+    text: |+
+      // You can experiment here, it won’t be checked
+    
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/8472#comment
+status: Solved
+record: -1
+local_check: false

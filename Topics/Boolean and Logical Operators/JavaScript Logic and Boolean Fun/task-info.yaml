@@ -1,0 +1,20 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: '&lt;code&gt;true&lt;/code&gt;'
+  - text: '&lt;code&gt;Cyber&lt;/code&gt;'
+  - text: '&lt;code&gt;false&lt;/code&gt;'
+  - text: '&lt;code&gt;undefined&lt;/code&gt;'
+  - text: '&lt;code&gt;1&lt;/code&gt;'
+files:
+  - name: main.js
+    visible: true
+    text: |+
+      // You can experiment here, it won’t be checked
+    
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/31657#comment
+status: Solved
+record: -1
+custom_name: JavaScript Logic and Boolean Fun!
+local_check: false

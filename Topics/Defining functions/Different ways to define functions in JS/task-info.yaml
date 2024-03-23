@@ -1,0 +1,23 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: "<pre><code>define myFunction() {}</code></pre> - This is a valid way to define\
+    \ a function."
+  - text: "<pre><code>let myFunction = function() {}</code></pre> - This is a function\
+    \ expression."
+  - text: "<pre><code>function myFunction() {}</code></pre> - This is a function declaration."
+  - text: "<pre><code>myFunction =: function() {}</code></pre> - This is a named function\
+    \ expression."
+  - text: "<pre><code>let myFunction = () =&gt; {}</code></pre> - This is an arrow function\
+    \ expression."
+files:
+  - name: main.js
+    visible: true
+    text: |+
+      // You can experiment here, it won’t be checked
+    
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/32473#comment
+status: Solved
+record: -1
+local_check: false
